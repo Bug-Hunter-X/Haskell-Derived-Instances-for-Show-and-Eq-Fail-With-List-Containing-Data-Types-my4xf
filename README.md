@@ -1,0 +1,1 @@
+This repository contains a demonstration of a subtle bug related to Haskell's derived `Show` and `Eq` instances.  When defining a custom data type that includes lists, the automatically derived instances may not behave as expected.  The `bug.hs` file shows the issue, and `bugSolution.hs` provides a corrected version.
